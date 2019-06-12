@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Login - Book Store</title>
+	<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.mainbody{
+			height: 1000px;
+			width: 100%;
+			background: url(background.jpg);
+		}
+		#header{
+			height: 150px;
+			width: 100%;
+			background: white;
+			text-align: center;
+		}
+		#centre{
+			height: 500px;
+			width: 100%;
+			text-align: center;
+			font-family: 'ABeeZee';
+			padding-top: 150px;
+			line-height: 50px;
+		}
+		#footer{
+			height: 100px;
+			width: 100%;
+			margin-top: 60px;
+			text-align: center;
+			font-size: 50px;
+			font-family: 'ABeeZee';
+			padding-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="mainbody">
+		<div id="header">
+			<a href="homepage.html"><img src="logo.jpg" height="150px"></a>
+		</div>
+		<div id="centre">
+			<h1 style="font-size: 50px">Login as an ADMIN</h1><br>
+			<form>
+				<h2>Username:</h2>
+				<input type="text" name="user" placeholder="Enter your username" size="30" maxlength="30" style="height: 30px">
+				<br>
+				<h2>Password:</h2>
+				<input type="password" name="pass" placeholder="Enter your password" size="30" maxlength="30" style="height: 30px">
+				<br><br>
+				<input type="submit" name="submit" value="Submit" style="font-size: 30px; padding: 10px; margin: 10px; font-family: 'ABeeZee';">
+				<input type="reset" name="reset" value="Reset" style="font-size: 30px; padding: 10px; margin: 10px; font-family: 'ABeeZee';">
+			</form>
+		</div>
+		<div id="footer">
+			<p>Book Store<sup>&copy;</sup></p>
+		</div>
+	</div>
+</body>
+</html>
